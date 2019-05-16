@@ -1,0 +1,29 @@
+{
+  "name": "pagespeedinsights",
+  "version": "1.0.0",
+  "description": "Analyze with PageSpeed Insights. Get your PageSpeed score and use PageSpeed suggestions to make your web site faster.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eesakky/pagespeedinsights.git"
+  },
+  "keywords": [
+    "page",
+    "speed",
+    "insight",
+    "psi",
+    "web",
+    "page",
+    "test",
+    "google"
+  ],
+  "author": "Esakkimuthu E",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eesakky/pagespeedinsights/issues"
+  },
+  "homepage": "https://github.com/eesakky/pagespeedinsights#readme"
+}
