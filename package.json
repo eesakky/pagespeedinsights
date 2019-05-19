@@ -1,5 +1,5 @@
 {
-  "name": "pagespeedinsights",
+  "name": "google-pagespeedinsights",
   "version": "1.0.0",
   "description": "Analyze with PageSpeed Insights. Get your PageSpeed score and use PageSpeed suggestions to make your web site faster.",
   "main": "index.js",
