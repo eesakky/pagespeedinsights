@@ -3,6 +3,14 @@ Analyze with PageSpeed Insights. Get your PageSpeed score and use PageSpeed sugg
 
 You can get an API key from [Google Developers Console](https://console.developers.google.com/).
 
+Run the below command on your terminal to install google-pagespeedinsights.
+
+```JavaScript
+
+    npm i google-pagespeedinsights
+
+```
+
 ## How to use google-pagespeedinsights
 
 Create a sample file with object, and the object contians the required parameter url and key for page speed. Rest of the parameters are optional.
@@ -28,39 +36,39 @@ psi(options);
 ## List of parameters
 
 ```
-| Parameter name    |  Value         | Description                                          |
-|-------------------------------------------------------------------------------------------|
-| ## Required query parameter                                                               |
-|-------------------------------------------------------------------------------------------|
-| url  	            | string	     | The URL to fetch and analyze                         |
-|-------------------------------------------------------------------------------------------|
-| ## Optional query parameters                                                              |
-|-------------------------------------------------------------------------------------------|
-| category	        | string	     | A Lighthouse category to run; if none are given,     |
-|                   |                |   only Performance category will be run              |
-|                   |                |                                                      |
-|                   |                |       Acceptable values are:                         |
-|                   |                |       * accessibility                                |
-|                   |                |       * best-practices                               |
-|                   |                |       * performance                                  |
-|                   |                |       * pwa                                          |
-|                   |                |       * seo                                          |
-|-------------------------------------------------------------------------------------------|
-| locale	        | string	     | The locale used to localize formatted results        |
-|-------------------------------------------------------------------------------------------|
-| strategy	        | string	     | The analysis strategy (desktop or mobile) to use,    |
-|                   |                | and desktop is the default                           |
-|                   |                |                                                      |
-|                   |                |      Acceptable values are:                          |
-|                   |                |      * desktop: Fetch and analyze the URL            |
-|                   |                |        for desktop browsers                          |
-|                   |                |      * mobile : Fetch and analyze the URL            |
-|                   |                |        for mobile devices                            |
-|-------------------------------------------------------------------------------------------|
-| utm_campaign	    | string	     | Campaign name for analytics.                         |
-|-------------------------------------------------------------------------------------------|
-| utm_source	    | string	     | Campaign source for analytics.                       |
-|-------------------------------------------------------------------------------------------|
+ Parameter name      Value          Description                                       
+
+ ## Required query parameter                                                            
+
+ url  	             string	      The URL to fetch and analyze                     
+
+ ## Optional query parameters                                                           
+
+ category	         string	      A Lighthouse category to run; if none are given, 
+                                  only Performance category will be run           
+                                                                                
+                                    Acceptable values are:                      
+                                    * accessibility                             
+                                    * best-practices                            
+                                    * performance                               
+                                    * pwa                                       
+                                    * seo                                       
+
+ locale	             string	      The locale used to localize formatted results     
+
+ strategy	         string	      The analysis strategy (desktop or mobile) to use,
+                                  and desktop is the default                        
+
+                                   Acceptable values are:                       
+                                   * desktop: Fetch and analyze the URL         
+                                     for desktop browsers                       
+                                   * mobile : Fetch and analyze the URL         
+                                     for mobile devices                         
+
+ utm_campaign	     string	      Campaign name for analytics.                     
+
+ utm_source	         string	      Campaign source for analytics.                    
+
 
 ```
 
