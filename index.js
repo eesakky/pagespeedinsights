@@ -16,7 +16,11 @@ module.exports = options => {
           const getOptions = {
             url: url,
             key: options.key,
-            strategy: options.strategy
+            strategy: options.strategy,
+            category: options.category,
+            locale: options.locale,
+            utm_campaign: options.utm_campaign,
+            utm_source: options.utm_source
           }
 
           return resolve (
