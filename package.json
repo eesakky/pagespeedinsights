@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/eesakky/pagespeedinsights#readme",
   "dependencies": {
-    "basic": "^2.0.3"
+    "googleapis": "40.0.0"
   }
 }
