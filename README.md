@@ -36,38 +36,46 @@ psi(options);
 ## List of parameters
 
 ```
-| Parameter name   |   Value    |      Description   |                                    
----
- ## Required query parameter                                                            
----
-| url  	        |     string	  |    The URL to fetch and analyze                     
----
- ## Optional query parameters                                                           
----
-| category	    |     string	 |     A Lighthouse category to run; if none are given, |
-                                    only Performance category will be run           
-                                                                                
-                                    Acceptable values are:                      
-                                    * accessibility                             
-                                    * best-practices                            
-                                    * performance                               
-                                    * pwa                                       
-                                    * seo                                       
----
- locale	             string	      The locale used to localize formatted results     
+## Required query parameter                                                            
 
- strategy	         string	      The analysis strategy (desktop or mobile) to use,
-                                  and desktop is the default                        
+**url < string >**
 
-                                   Acceptable values are:                       
-                                   * desktop: Fetch and analyze the URL         
-                                     for desktop browsers                       
-                                   * mobile : Fetch and analyze the URL         
-                                     for mobile devices                         
+The URL to fetch and analyze                     
 
- utm_campaign	     string	      Campaign name for analytics.                     
+## Optional query parameters                                                           
 
- utm_source	         string	      Campaign source for analytics.                    
+**category < string >**
+
+A Lighthouse category to run; if none are given, 
+only Performance category will be run           
+                                    
+Acceptable values are:                      
+* accessibility                             
+* best-practices                            
+* performance                               
+* pwa                                       
+* seo                                       
+
+**locale < string >**	      
+
+The locale used to localize formatted results     
+
+**strategy < string >**	 
+
+The analysis strategy (desktop or mobile) to use,
+and desktop is the default                        
+
+Acceptable values are:                       
+* desktop: Fetch and analyze the URL         
+for desktop browsers                       
+* mobile : Fetch and analyze the URL         
+for mobile devices                         
+
+**utm_campaign < string >**
+Campaign name for analytics.                     
+
+**utm_source	< string >**
+Campaign source for analytics.                    
 
 
 ```
