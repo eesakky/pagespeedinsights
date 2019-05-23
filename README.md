@@ -7,7 +7,7 @@ Run the below command on your terminal to install google-pagespeedinsights.
 
 ```JavaScript
 
-    npm i google-pagespeedinsights
+npm i google-pagespeedinsights
 
 ```
 
@@ -36,16 +36,16 @@ psi(options);
 ## List of parameters
 
 ```
- Parameter name      Value          Description                                       
-
+| Parameter name   |   Value    |      Description   |                                    
+---
  ## Required query parameter                                                            
-
- url  	             string	      The URL to fetch and analyze                     
-
+---
+| url  	        |     string	  |    The URL to fetch and analyze                     
+---
  ## Optional query parameters                                                           
-
- category	         string	      A Lighthouse category to run; if none are given, 
-                                  only Performance category will be run           
+---
+| category	    |     string	 |     A Lighthouse category to run; if none are given, |
+                                    only Performance category will be run           
                                                                                 
                                     Acceptable values are:                      
                                     * accessibility                             
@@ -53,7 +53,7 @@ psi(options);
                                     * performance                               
                                     * pwa                                       
                                     * seo                                       
-
+---
  locale	             string	      The locale used to localize formatted results     
 
  strategy	         string	      The analysis strategy (desktop or mobile) to use,
